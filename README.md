@@ -1,5 +1,6 @@
 # juice-benchmarks
-Benchmarks for experimenting with Juice
+
+Benchmarks for experimenting with Juice, with [hyperfine](https://github.com/sharkdp/hyperfine).
 
 ## Usage
 
@@ -7,5 +8,5 @@ This tiny script runs a benchmark against [Juice](https://github.com/Automattic/
 
 ```sh
 npm install
-npm run start
+hyperfine --warmup 5 --runs 100 'node .'
 ```
