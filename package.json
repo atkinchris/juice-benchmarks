@@ -9,6 +9,6 @@
   "author": "Chris Atkin <atkinchris@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "juice": "^5.2.0"
+    "juice": "^4.3.2"
   }
 }
